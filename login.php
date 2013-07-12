@@ -36,7 +36,7 @@ else{
             else{
                 $_SESSION["usuario"] = $email_usuario;
                 $_SESSION["senha"] = $senhaUsuario;
-                header("Location:indexrestrito.php");
+                header("Location:restrito/indexrestrito.php");
             }
             }else{
                 echo "Tipo de usuario inválido !";

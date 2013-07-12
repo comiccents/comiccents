@@ -2,7 +2,7 @@
 
 include_once'conexao/conecta.php';
 
-$sql = "SELECT * from produtos";
+$sql = "SELECT * FROM produtos";
 $qr = mysql_query($sql) or die (mysql_error());
 
 while($ln = mysql_fetch_assoc($qr)){

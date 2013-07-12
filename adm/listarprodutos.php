@@ -40,7 +40,7 @@ while ($produtos = mysql_fetch_array($result))
     echo "<td>".utf8_decode($imagem_url)."</td>";
     echo "<td>".utf8_decode($fornecedor_produto)."</td>";      
     
-    echo "<td><a href =frmatualizarProduto.php?codproduto=".$cod.">Atualizar</a></td>";
+    echo "<td><a href =alterarprodutos.php?codproduto=".$cod.">Atualizar</a></td>";
     echo "<td><a href =excluirProduto.php?codproduto=".$cod.">Excluir</a></td>";
     echo "</tr>";
     

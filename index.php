@@ -90,9 +90,9 @@
 	
 	
     <section id="conteudo">
-       	  <article id="quadro">
+       	  <iframe action="listarCarrinho.php" id="quadro" >
      	
-           </article>
+           </iframe>
 	  </section>
 
       
